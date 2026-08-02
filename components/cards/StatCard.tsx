@@ -20,22 +20,26 @@ export function StatCard({ value, suffix = "", label, delay = 0 }: StatCardProps
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    
     const obs = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !started.current) {
+      (entries) => {
+        const entry = entries[0];
+        // Verificação segura para satisfazer o TypeScript estrito
+        if (entry && entry.isIntersecting && !started.current) {
           started.current = true;
           animate(count, value, { duration: 2, delay, ease: "easeOut" });
         }
       },
       { threshold: 0.3 }
     );
+    
     obs.observe(el);
     return () => obs.disconnect();
   }, [count, value, delay]);
 
   useEffect(() => {
-    const unsub = rounded.on("change", (v) => setDisplay(v));
-    return unsub;
+    const unsub = rounded.on("change", (latest) => setDisplay(latest));
+    return () => unsub();
   }, [rounded]);
 
   return (
@@ -45,13 +49,15 @@ export function StatCard({ value, suffix = "", label, delay = 0 }: StatCardProps
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}
-      className="text-center p-8 rounded-2xl glass border border-border"
+      className="text-center p-8 rounded-2xl bg-bg-card border border-border"
     >
-      <div className="text-5xl md:text-6xl font-bold text-gradient-accent mb-2">
+      <div className="text-5xl md:text-6xl font-bold text-white mb-2">
         {display.toLocaleString()}
         {suffix}
       </div>
-      <div className="text-text-secondary text-sm uppercase tracking-wider">{label}</div>
+      <div className="text-text-secondary text-sm uppercase tracking-wider">
+        {label}
+      </div>
     </motion.div>
   );
 }
