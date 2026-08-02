@@ -49,9 +49,6 @@ coverage/
 
 # TypeScript
 *.tsbuildinfo
-# next-env.d.ts é gerado automaticamente, mas pode ser mantido ou ignorado. 
-# O padrão Next.js geralmente o mantém, mas ignorar força regeneração limpa no CI/CD.
-next-env.d.ts
 
 # Vercel
 .vercel
