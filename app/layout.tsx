@@ -4,7 +4,6 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Footer } from "@/components/footer/Footer";
 import { LanguageProvider } from "@/hooks/useLanguage";
-import { SITE } from "@/lib/constants";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,39 +18,41 @@ const space = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE.url),
+  metadataBase: new URL("https://spectre-app.vercel.app"),
   title: {
-    default: "Spectre — Premium Technology",
-    template: "%s | Spectre",
+    default: "SpectreCheats - Best Store FF",
+    template: "%s | SpectreCheats",
   },
-  description: SITE.description.pt,
-  keywords: ["Spectre", "technology", "security", "premium", "software"],
-  authors: [{ name: "Spectre" }],
-  creator: "Spectre",
-  publisher: "Spectre",
+  description: "SpectreCheats - A melhor loja de produtos premium para Free Fire.",
+  keywords: ["SpectreCheats", "Free Fire", "FF", "cheats", "gaming", "premium"],
+  authors: [{ name: "SpectreCheats" }],
+  creator: "SpectreCheats",
+  publisher: "SpectreCheats",
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true },
   },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: SITE.url,
-    siteName: "Spectre",
-    title: "Spectre — Premium Technology",
-    description: SITE.description.pt,
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Spectre" }],
+    url: "https://spectre-app.vercel.app",
+    siteName: "SpectreCheats",
+    title: "SpectreCheats - Best Store FF",
+    description: "A melhor loja de produtos premium para Free Fire.",
+    images: [
+      {
+        url: "/favicon.png",
+        width: 1200,
+        height: 630,
+        alt: "SpectreCheats",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Spectre — Premium Technology",
-    description: SITE.description.en,
-    images: ["/og-image.png"],
-  },
-  icons: {
-    icon: "/spectre.svg",
-    apple: "/spectre.svg",
+    title: "SpectreCheats - Best Store FF",
+    description: "A melhor loja de produtos premium para Free Fire.",
+    images: ["/favicon.png"],
   },
 };
 
