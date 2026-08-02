@@ -36,7 +36,7 @@ export const COMPANY_CONFIG = {
 
   stats: {
     products: 5,
-    weeklyUpdates: "10+",
+    weeklyUpdates: 10, // Alterado de "10+" para 10 (número)
     supportAvailability: "24/7",
     activeCustomers: 250,
   },

@@ -8,10 +8,11 @@ import { COMPANY_CONFIG } from "@/lib/config";
 export function Stats() {
   const { t } = useLanguage();
 
+  // Todos os valores agora são estritamente números, e o "+" é tratado no suffix
   const stats = [
     { value: COMPANY_CONFIG.stats.activeCustomers, suffix: "+", label: t.stats.customers, delay: 0 },
     { value: COMPANY_CONFIG.stats.products, suffix: "", label: t.stats.products, delay: 0.1 },
-    { value: COMPANY_CONFIG.stats.weeklyUpdates.replace("+", ""), suffix: "+", label: t.stats.updates, delay: 0.2, isString: true },
+    { value: COMPANY_CONFIG.stats.weeklyUpdates, suffix: "+", label: t.stats.updates, delay: 0.2 },
     { value: 24, suffix: "/7", label: t.stats.support, delay: 0.3 },
   ];
 
@@ -21,7 +22,7 @@ export function Stats() {
         {stats.map((s) => (
           <StatCard 
             key={s.label} 
-            value={s.isString ? parseInt(s.value) : s.value} 
+            value={s.value} 
             suffix={s.suffix} 
             label={s.label} 
             delay={s.delay} 
