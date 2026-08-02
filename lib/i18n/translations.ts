@@ -1,5 +1,3 @@
-// lib/i18n/translations.ts (Substitua o conteúdo inteiro)
-
 export const translations = {
   pt: {
     nav: { home: "Início", products: "Produtos", about: "Sobre", support: "Suporte" },
@@ -29,7 +27,7 @@ export const translations = {
     products: {
       title: "Nossos Produtos",
       subtitle: "Soluções poderosas para cada necessidade.",
-      buy: "Comprar via Discord", // ALTERADO
+      buy: "Comprar via Discord",
       features: "Recursos",
       status: { active: "Ativo", beta: "Beta", "coming-soon": "Em Breve" },
     },
@@ -75,6 +73,13 @@ export const translations = {
         subtitle: "Solicitações de reembolso dependem da duração da licença adquirida.",
       },
       faq: { title: "Perguntas Frequentes", subtitle: "Respostas para as dúvidas mais comuns." },
+      tutorials: { title: "Tutoriais", subtitle: "Aprenda a usar nossos produtos como um profissional." },
+      tutorialsList: [
+        { title: "Primeiros Passos", desc: "Aprenda o básico para começar a usar nossos produtos." },
+        { title: "Configuração Avançada", desc: "Domine recursos avançados e personalize sua experiência." },
+        { title: "Segurança", desc: "Proteja sua conta e dados com nossas melhores práticas." },
+        { title: "Solução de Problemas", desc: "Resolva os problemas mais comuns de forma rápida." },
+      ],
       faqItems: [
         { q: "Como faço para comprar um produto?", a: "Acesse a página de Produtos, clique em 'Comprar via Discord' e finalize o processo diretamente em nosso servidor através do bot oficial." },
         { q: "Quais formas de pagamento são aceitas?", a: "Aceitamos exclusivamente PIX, processado de forma automatizada pelo nosso bot no Discord." },
@@ -126,7 +131,7 @@ export const translations = {
     products: {
       title: "Our Products",
       subtitle: "Powerful solutions for every need.",
-      buy: "Buy via Discord", // ALTERADO
+      buy: "Buy via Discord",
       features: "Features",
       status: { active: "Active", beta: "Beta", "coming-soon": "Coming Soon" },
     },
@@ -172,6 +177,13 @@ export const translations = {
         subtitle: "Refund requests depend on the purchased license duration.",
       },
       faq: { title: "Frequently Asked Questions", subtitle: "Answers to the most common questions." },
+      tutorials: { title: "Tutorials", subtitle: "Learn to use our products like a pro." },
+      tutorialsList: [
+        { title: "Getting Started", desc: "Learn the basics to start using our products." },
+        { title: "Advanced Setup", desc: "Master advanced features and customize your experience." },
+        { title: "Security", desc: "Protect your account and data with our best practices." },
+        { title: "Troubleshooting", desc: "Solve the most common issues quickly." },
+      ],
       faqItems: [
         { q: "How do I buy a product?", a: "Go to the Products page, click 'Buy via Discord' and complete the process directly on our server through the official bot." },
         { q: "What payment methods are accepted?", a: "We exclusively accept PIX, processed automatically by our Discord bot." },
