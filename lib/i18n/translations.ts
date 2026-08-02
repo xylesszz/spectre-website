@@ -1,0 +1,198 @@
+// lib/i18n/translations.ts (Substitua o conteúdo inteiro)
+
+export const translations = {
+  pt: {
+    nav: { home: "Início", products: "Produtos", about: "Sobre", support: "Suporte" },
+    hero: {
+      badge: "Tecnologia Premium",
+      title: "Eleve seu nível com",
+      titleAccent: "Spectre",
+      subtitle: "Soluções premium em tecnologia e segurança. Projetadas para quem exige o melhor.",
+      ctaProducts: "Ver Produtos",
+      ctaDiscord: "Entrar no Discord",
+    },
+    features: {
+      title: "Por que Spectre?",
+      subtitle: "Tudo o que você precisa em um só lugar.",
+      premium: { title: "Qualidade Premium", desc: "Produtos desenvolvidos com os mais altos padrões de qualidade do mercado." },
+      fast: { title: "Suporte Rápido", desc: "Equipe dedicada disponível 24/7 no Discord para resolver qualquer problema rapidamente." },
+      updates: { title: "Atualizações Frequentes", desc: "Mais de 10 atualizações semanais para manter você sempre à frente." },
+      secure: { title: "Segurança Total", desc: "Criptografia avançada e proteção contra ameaças modernas." },
+      professional: { title: "Profissional", desc: "Interface intuitiva e experiência polida para usuários exigentes." },
+    },
+    stats: {
+      customers: "Clientes Ativos",
+      products: "Produtos",
+      updates: "Atualizações Semanais",
+      support: "Suporte 24/7",
+    },
+    products: {
+      title: "Nossos Produtos",
+      subtitle: "Soluções poderosas para cada necessidade.",
+      buy: "Comprar via Discord", // ALTERADO
+      features: "Recursos",
+      status: { active: "Ativo", beta: "Beta", "coming-soon": "Em Breve" },
+    },
+    about: {
+      title: "Quem Somos",
+      subtitle: "Construindo o futuro da tecnologia com paixão e precisão.",
+      story: "A Spectre nasceu da visão de criar soluções que combinam elegância, performance e segurança. Desde o início, nosso compromisso é entregar produtos que superam expectativas.",
+      mission: { title: "Missão", desc: "Empoderar usuários com tecnologia de ponta, acessível e confiável." },
+      vision: { title: "Visão", desc: "Ser referência em soluções premium de tecnologia e segurança digital." },
+      values: {
+        title: "Nossos Valores",
+        innovation: { title: "Inovação", desc: "Buscamos constantemente novas formas de resolver problemas complexos." },
+        quality: { title: "Qualidade", desc: "Cada detalhe é pensado para oferecer a melhor experiência possível." },
+        security: { title: "Segurança", desc: "Proteção é prioridade em tudo o que desenvolvemos." },
+        community: { title: "Comunidade", desc: "Construímos junto com nossos usuários, ouvindo e evoluindo juntos." },
+      },
+      timeline: { title: "Nossa Jornada" },
+      why: {
+        title: "Por que escolher a Spectre?",
+        items: [
+          "Produtos testados e aprovados por centenas de usuários",
+          "Suporte humano e personalizado 24/7 via Discord",
+          "Mais de 10 atualizações semanais",
+          "Comunidade ativa e engajada",
+          "Segurança de nível empresarial",
+        ],
+      },
+    },
+    support: {
+      title: "Como podemos ajudar?",
+      subtitle: "Estamos aqui para garantir sua melhor experiência.",
+      discord: { 
+        title: "Comunidade Discord", 
+        desc: "Junte-se à nossa comunidade no Discord. Todos os processos de compra e suporte são realizados exclusivamente por lá através do nosso bot oficial.",
+        cta: "Entrar no Discord" 
+      },
+      payment: {
+        title: "Método de Pagamento",
+        desc: "Aceitamos apenas PIX, processado de forma segura e automatizada pelo nosso bot oficial no Discord.",
+      },
+      refund: {
+        title: "Política de Reembolso",
+        subtitle: "Solicitações de reembolso dependem da duração da licença adquirida.",
+      },
+      faq: { title: "Perguntas Frequentes", subtitle: "Respostas para as dúvidas mais comuns." },
+      faqItems: [
+        { q: "Como faço para comprar um produto?", a: "Acesse a página de Produtos, clique em 'Comprar via Discord' e finalize o processo diretamente em nosso servidor através do bot oficial." },
+        { q: "Quais formas de pagamento são aceitas?", a: "Aceitamos exclusivamente PIX, processado de forma automatizada pelo nosso bot no Discord." },
+        { q: "Como funciona o suporte?", a: "Oferecemos suporte completo via Discord. Nossa equipe responde rapidamente 24/7." },
+        { q: "Posso solicitar reembolso?", a: "Sim. Licenças de 7 dias têm até 3 dias para reembolso. Licenças de 14 dias, até 7 dias. Licenças de 30 dias, até 15 dias após a compra." },
+        { q: "Os produtos recebem atualizações?", a: "Sim, lançamos mais de 10 atualizações semanais. Todas são gratuitas e automáticas." },
+      ],
+    },
+    footer: {
+      tagline: "Tecnologia premium para quem exige o melhor.",
+      quickLinks: "Links Rápidos",
+      social: "Redes Sociais",
+      language: "Idioma",
+      copyright: "Todos os direitos reservados.",
+    },
+    common: {
+      learnMore: "Saiba mais",
+      loading: "Carregando...",
+      backHome: "Voltar ao início",
+      notFound: "Página não encontrada",
+      notFoundDesc: "A página que você procura não existe ou foi movida.",
+    },
+  },
+  en: {
+    nav: { home: "Home", products: "Products", about: "About", support: "Support" },
+    hero: {
+      badge: "Premium Technology",
+      title: "Level up with",
+      titleAccent: "Spectre",
+      subtitle: "Premium technology and security solutions. Designed for those who demand the best.",
+      ctaProducts: "View Products",
+      ctaDiscord: "Join Discord",
+    },
+    features: {
+      title: "Why Spectre?",
+      subtitle: "Everything you need in one place.",
+      premium: { title: "Premium Quality", desc: "Products built with the highest market quality standards." },
+      fast: { title: "Fast Support", desc: "Dedicated team available 24/7 on Discord to solve any issue quickly." },
+      updates: { title: "Frequent Updates", desc: "Over 10 weekly updates to keep you ahead of the competition." },
+      secure: { title: "Total Security", desc: "Advanced encryption and protection against modern threats." },
+      professional: { title: "Professional", desc: "Intuitive interface and polished experience for demanding users." },
+    },
+    stats: {
+      customers: "Active Customers",
+      products: "Products",
+      updates: "Weekly Updates",
+      support: "24/7 Support",
+    },
+    products: {
+      title: "Our Products",
+      subtitle: "Powerful solutions for every need.",
+      buy: "Buy via Discord", // ALTERADO
+      features: "Features",
+      status: { active: "Active", beta: "Beta", "coming-soon": "Coming Soon" },
+    },
+    about: {
+      title: "Who We Are",
+      subtitle: "Building the future of technology with passion and precision.",
+      story: "Spectre was born from the vision of creating solutions that combine elegance, performance and security. From the start, our commitment is to deliver products that exceed expectations.",
+      mission: { title: "Mission", desc: "Empower users with cutting-edge, accessible and reliable technology." },
+      vision: { title: "Vision", desc: "To be a reference in premium technology and digital security solutions." },
+      values: {
+        title: "Our Values",
+        innovation: { title: "Innovation", desc: "We constantly seek new ways to solve complex problems." },
+        quality: { title: "Quality", desc: "Every detail is crafted to offer the best possible experience." },
+        security: { title: "Security", desc: "Protection is a priority in everything we develop." },
+        community: { title: "Community", desc: "We build together with our users, listening and evolving together." },
+      },
+      timeline: { title: "Our Journey" },
+      why: {
+        title: "Why choose Spectre?",
+        items: [
+          "Products tested and approved by hundreds of users",
+          "Human and personalized 24/7 support via Discord",
+          "Over 10 weekly updates",
+          "Active and engaged community",
+          "Enterprise-level security",
+        ],
+      },
+    },
+    support: {
+      title: "How can we help?",
+      subtitle: "We're here to ensure your best experience.",
+      discord: { 
+        title: "Discord Community", 
+        desc: "Join our Discord community. All purchase and support processes are handled exclusively there through our official bot.",
+        cta: "Join Discord" 
+      },
+      payment: {
+        title: "Payment Method",
+        desc: "We exclusively accept PIX, processed securely and automatically by our official Discord bot.",
+      },
+      refund: {
+        title: "Refund Policy",
+        subtitle: "Refund requests depend on the purchased license duration.",
+      },
+      faq: { title: "Frequently Asked Questions", subtitle: "Answers to the most common questions." },
+      faqItems: [
+        { q: "How do I buy a product?", a: "Go to the Products page, click 'Buy via Discord' and complete the process directly on our server through the official bot." },
+        { q: "What payment methods are accepted?", a: "We exclusively accept PIX, processed automatically by our Discord bot." },
+        { q: "How does support work?", a: "We provide complete support via Discord. Our team responds quickly 24/7." },
+        { q: "Can I request a refund?", a: "Yes. 7-day licenses have up to 3 days for a refund. 14-day licenses, up to 7 days. 30-day licenses, up to 15 days after purchase." },
+        { q: "Do products receive updates?", a: "Yes, we release over 10 updates weekly. All are free and automatic." },
+      ],
+    },
+    footer: {
+      tagline: "Premium technology for those who demand the best.",
+      quickLinks: "Quick Links",
+      social: "Social",
+      language: "Language",
+      copyright: "All rights reserved.",
+    },
+    common: {
+      learnMore: "Learn more",
+      loading: "Loading...",
+      backHome: "Back to home",
+      notFound: "Page not found",
+      notFoundDesc: "The page you're looking for doesn't exist or has been moved.",
+    },
+  },
+} as const;

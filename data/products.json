@@ -1,0 +1,64 @@
+[
+    {
+      "id": "spectre-shield",
+      "name": "Spectre Shield",
+      "description": {
+        "pt": "Proteção avançada contra ameaças modernas. Segurança de nível empresarial para seus projetos.",
+        "en": "Advanced protection against modern threats. Enterprise-level security for your projects."
+      },
+      "features": {
+        "pt": ["Criptografia AES-256", "Proteção DDoS", "Monitoramento 24/7", "Backup automático"],
+        "en": ["AES-256 Encryption", "DDoS Protection", "24/7 Monitoring", "Automatic Backup"]
+      },
+      "image": "/images/product-shield.svg",
+      "status": "active",
+      "price": "$29.99",
+      "badge": "Mais vendido"
+    },
+    {
+      "id": "spectre-boost",
+      "name": "Spectre Boost",
+      "description": {
+        "pt": "Otimização extrema de performance. Acelere seus sistemas ao máximo.",
+        "en": "Extreme performance optimization. Accelerate your systems to the max."
+      },
+      "features": {
+        "pt": ["Otimização automática", "Cache inteligente", "Relatórios detalhados", "API completa"],
+        "en": ["Automatic optimization", "Smart cache", "Detailed reports", "Full API"]
+      },
+      "image": "/images/product-boost.svg",
+      "status": "active",
+      "price": "$19.99"
+    },
+    {
+      "id": "spectre-vision",
+      "name": "Spectre Vision",
+      "description": {
+        "pt": "Analytics em tempo real com insights poderosos. Veja tudo, controle tudo.",
+        "en": "Real-time analytics with powerful insights. See everything, control everything."
+      },
+      "features": {
+        "pt": ["Dashboard em tempo real", "Alertas inteligentes", "Integrações", "Exportação de dados"],
+        "en": ["Real-time dashboard", "Smart alerts", "Integrations", "Data export"]
+      },
+      "image": "/images/product-vision.svg",
+      "status": "beta",
+      "price": "$39.99",
+      "badge": "Novo"
+    },
+    {
+      "id": "spectre-core",
+      "name": "Spectre Core",
+      "description": {
+        "pt": "Plataforma central para gerenciar todos os seus produtos Spectre em um só lugar.",
+        "en": "Central platform to manage all your Spectre products in one place."
+      },
+      "features": {
+        "pt": ["Gestão unificada", "Automação", "Multi-usuário", "Suporte prioritário"],
+        "en": ["Unified management", "Automation", "Multi-user", "Priority support"]
+      },
+      "image": "/images/product-core.svg",
+      "status": "coming-soon",
+      "price": "Em breve"
+    }
+  ]

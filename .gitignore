@@ -1,0 +1,62 @@
+# ==========================================
+# SPECTRE - PRODUCTION .GITIGNORE
+# ==========================================
+
+# Dependências (NUNCA commitar)
+node_modules/
+.pnp
+.pnp.js
+
+# Arquivos de Ambiente (CRÍTICO PARA SEGURANÇA)
+# Previne vazamento de variáveis de ambiente, chaves de API e configurações locais
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Build e Output do Next.js
+.next/
+out/
+build/
+dist/
+
+# Arquivos de Cache e Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testes e Cobertura de Código
+coverage/
+*.lcov
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+# next-env.d.ts é gerado automaticamente, mas pode ser mantido ou ignorado. 
+# O padrão Next.js geralmente o mantém, mas ignorar força regeneração limpa no CI/CD.
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Arquivos temporários de desenvolvimento
+*.tmp
+*.temp
+estrutura.txt
