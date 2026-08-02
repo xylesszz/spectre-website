@@ -24,7 +24,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-4">
               <div className="relative w-10 h-10">
                 <Image
-                  src="/spectre.png"
+                  src="/favicon.png"
                   alt="Spectre"
                   fill
                   className="object-contain"
